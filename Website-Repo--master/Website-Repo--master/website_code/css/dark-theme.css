@@ -1,0 +1,226 @@
+
+  .titletext {
+    position: fixed;
+    top: 25%;
+    left:5%;
+    float: left;
+    font-size:120px;
+    letter-spacing:0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 
+              8px 8px #0583F2,
+              20px 20px #000000;
+  }
+  body{
+      background-color: #031926;
+      font-family: montserrat, sans-serif;
+  }
+  
+
+  .lightmode{
+    background-color:#0583F2;
+    font-family: montserrat, sans-serif;
+  }
+    /*Style the navigation bar */
+    .navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #076DF2;
+    overflow: auto;
+    }
+
+    /* Navbar links */
+    .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: #F0F2F2;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 1em;
+    }
+    .navbar button {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    background-color: #076DF2;
+    color:#F0F2F2;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 1em;
+    }
+
+    .btn a{
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: #F0F2F2;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 1em;
+    }
+
+    /* Navbar links on mouse-over */
+    .navbar a:hover {
+    background-color: #044D8C;
+    }
+
+    .popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+/* All this below form W3 Schools*/
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+    /* Current/active navbar link */
+    .active {
+    background-color: #031926;
+    }
+
+
+
+    .blockotext {
+      float: right;
+      position: relative;
+      top: 100px;
+      width: 600px;
+      right:5%
+      /*inline-size: min-content;*/
+    }
+
+    .blockotext p {
+      float: left;
+      text-align: left;
+      padding: 12px;
+      color: #F0F2F2;
+      text-decoration: none;
+      font-size: 17px;
+      font-family: montserrat, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .blockotext h2 {
+      float: left;
+      text-align: left;
+      color:#031926;
+      text-decoration: none;
+      font-family: montserrat, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+     .blockotext h1 {
+      float: left;
+      text-align: left;
+      color:#000000;
+      text-decoration: none;
+      font-family: montserrat, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .blockotext a {
+    padding: 10px;
+    text-align: center;
+    color: #F0F2F2;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 1em;
+    }
+
+    .blockotext a:hover {
+    background-color: #044D8C;
+    }
+    
+    div {
+      padding: 12px;
+      border-radius: 1em;
+      background-color: #076DF2;
+
+    }
+
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  }
+  img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+  
+  }
+
+    /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+    @media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+    }

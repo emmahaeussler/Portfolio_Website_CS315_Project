@@ -1,0 +1,20 @@
+Wbsite used for website icon image. 
+https://toppng.com/show_download/198790/white-website-icon-png-free-stock-web-icon-png-transparent/large
+
+
+Used W3 school website on many occasions to gain understanding of HTML/CSS. 
+https://www.w3schools.com/howto/howto_css_download_button.asp
+
+Used for Memory Icon in Portfolio Page. 
+https://icon-icons.com/icon/memory/144216
+
+https://www.nsf.gov/news/news_summ.jsp?cntn_id=295999
+
+Used for the navigation icons, and the youtube, linkedin, and github icons. 
+https://fontawesome.com/v5.15/icons/users-cog?style=solid
+
+Used for titletext class that displayed the large lettering text on each page. 
+https://freefrontend.com/css-code-examples/
+
+https://dev.to/albertomontalesi/add-dark-mode-to-your-website-with-just-a-few-lines-of-code-5baf
+(found this website with a reference from Justin Herring (peer))
